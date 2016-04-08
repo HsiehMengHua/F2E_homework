@@ -1,0 +1,124 @@
+html {font-size: 150%; font-family: "微軟正黑體", "Arial", sans-serif;}
+body {margin: 0; padding: 0; position: relative; background-image: url(../img/jumbotron_pic.jpg); background-repeat: no-repeat; background-attachment: fixed; overflow-x: hidden;}
+img {font-size: 12px;}
+a {text-decoration: none;}
+ul {list-style: none; margin: 0; padding: 0;}
+li {display: inline-block; height: 100%;}
+.social-media-icons {float: right; width: 13%;}
+.social-media-icons li {float: right; padding-right: 30px;}
+
+header {height: 94px; background-color: rgba(255,255,255,0.7);}
+header .brand {margin-top: 36px; margin-left: 48px; float: left;}
+header li a {line-height: 89px;}
+header .nav {float: left; margin-left: 56px;}
+header .nav li {padding-right: 20px; padding-left: 20px; box-sizing: border-box;}
+header .nav li:hover {border-bottom: solid 5px rgba(203, 100, 10, 0.69);}
+header .nav a  {
+   color: #362f29;
+   font-size: 72%;
+   font-weight: bold;
+   -webkit-transition: color .5s;
+   transition: color .5s;
+}
+header .nav li:hover a {color: #965f2f;}
+header .social-media-icons {margin-right: 3%;}
+
+header .twitter {
+   -webkit-filter: hue-rotate(-160deg) saturate(16%) brightness(48%);
+   filter: hue-rotate(-160deg) saturate(16%) brightness(48%);
+   -webkit-transition: -webkit-filter .5s; /* For Safari 3.1 to 6.0 */
+   transition: -webkit-filter .5s;
+}
+header .twitter:hover {
+   -webkit-filter: hue-rotate(0) saturate(1) brightness(1);
+   filter: hue-rotate(0) saturate(1) brightness(1);
+}
+header .ig {
+   -webkit-filter: hue-rotate(-5deg) saturate(22%) brightness(55%);
+   filter: hue-rotate(-15deg) saturate(22%) brightness(55%);
+   -webkit-transition: -webkit-filter 1s; /* For Safari 3.1 to 6.0 */
+   transition: -webkit-filter 1s;
+}
+header .ig:hover {
+   -webkit-filter: hue-rotate(0) saturate(1) brightness(1);
+   filter: hue-rotate(0) saturate(1) brightness(1);
+}
+header .fb {
+   -webkit-filter: hue-rotate(180deg) saturate(20%) brightness(80%);
+   filter: hue-rotate(180deg) saturate(20%) brightness(80%);
+   -webkit-transition: -webkit-filter 1s; /* For Safari 3.1 to 6.0 */
+   transition: -webkit-filter 1s;
+}
+header .fb:hover {
+   -webkit-filter: hue-rotate(0) saturate(1) brightness(1);
+   filter: hue-rotate(0) saturate(1) brightness(1);
+}
+
+
+#jumbotron {height: 553px; position: relative;}
+#jumbotron .logo {position: absolute; top: 20%; left: 50%; margin-left: -9%; width: 18%; -webkit-filter: drop-shadow(2px 2px 4px rgba(54,47,41,0.88));}
+#jumbotron button {
+   margin: 0;
+   padding: 15px 35px;
+   border: solid 3px white;
+   border-radius: 8px;
+   background-color: rgba(255,255,255,0);
+   color: white;
+   font-family: inherit;
+   font-size: 24px;
+   font-weight: bold;
+   text-shadow: 2px 2px 4px rgba(54,47,41,0.88);
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   margin-left: -7.6%;
+   -webkit-filter: drop-shadow(2px 2px 4px rgba(54,47,41,0.88));
+   -webkit-transition: background-color .7s; /* For Safari 3.1 to 6.0 */
+   transition: background-color .7s;
+}
+#jumbotron button:hover {
+   background-color: rgba(255,255,255,0.4);
+   cursor: pointer;
+}
+
+#product-intro {background-color: white;}
+#product-intro .container {padding: 88px 148px;}
+#product-intro .container img {float: left;}
+#product-intro .container:after {content: ""; display: block; clear: both;}
+#product-intro .prduct-disc {width: 53%; float: right; padding-top: 96px;}
+#product-intro h3 {margin-top: 0; color: #cc660d;}
+#product-intro p {line-height: 1.7em; color: #362f29;}
+#product-list {background-color: #9d8771;}
+.product-list-pics {width: 80%; padding: 43px 148px 43px 112px;}
+.product-list-pics img {
+   float: left;
+   width: 20%;
+   padding-left: 36px;
+   box-sizing: border-box;
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+   -webkit-transition: -webkit-filter .7s;
+   transition: -webkit-filter .7s;
+}
+.product-list-pics img:hover {-webkit-filter: grayscale(0); filter: grayscale(0); cursor: pointer;}
+.product-list-pics:after {content: ""; display: block; clear: both;}
+.arrow .right-arrow {float: right; margin-right: 3.6%;}
+.arrow .flip-horizontal {
+   float: left;
+   margin-left: 3.6%;
+   -moz-transform: scaleX(-1);
+   -webkit-transform: scaleX(-1);
+   -o-transform: scaleX(-1);
+   transform: scaleX(-1);
+   -ms-filter: fliph; /*IE*/
+   filter: fliph; /*IE*/
+}
+.arrow {position: relative; top: -150px; cursor: pointer;}
+
+footer {background-color: #201e1c;}
+footer p {margin: 0; padding: 0; font-size: 58%; color: #ebebeb; line-height: 2em;}
+footer .info {width: 23%; float: left;}
+footer .copyright {float: right; padding-left: 102px; padding-top: 25px;}
+footer .social-media-icons {padding-top: 20px;}
+footer>div:after {content: ""; display: block; clear: both;}
+footer>div {padding: 25px 36px;}
